@@ -1,43 +1,13 @@
 {
-	"groups":[
-	{
-		"keys":"rect,circle,tailParticle_json,tailParticle_png,b2,p1,p2",
-		"name":"preload"
-	}],
-	"resources":[
-	{
-		"name":"rect",
-		"type":"image",
-		"url":"assets/rect.png"
-	},
-	{
-		"name":"circle",
-		"type":"image",
-		"url":"assets/circle.png"
-	},
-	{
-		"name":"tailParticle_json",
-		"type":"json",
-		"url":"assets/particle/tailParticle.json"
-	},
-	{
-		"name":"tailParticle_png",
-		"type":"image",
-		"url":"assets/particle/tailParticle.png"
-	},
-	{
-		"name":"b2",
-		"type":"image",
-		"url":"assets/b2.png"
-	},
-	{
-		"name":"p1",
-		"type":"image",
-		"url":"assets/p1.png"
-	},
-	{
-		"name":"p2",
-		"type":"image",
-		"url":"assets/p2.png"
-	}]
+"resources":
+	[
+		{"name":"bgImage","type":"image","url":"assets/bg.jpg"},
+		{"name":"egretIcon","type":"image","url":"assets/egret_icon.png"},
+        {"name":"description","type":"json","url":"config/description.json"}
+	],
+
+"groups":
+	[
+        {"name":"preload","keys":"bgImage,egretIcon"}
+	]
 }
