@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Cocos2d-html5 Hello World test</title>
-    <link rel="icon" type="image/GIF" href="http://www.fofalife.com/projectM/res/favicon.ico"/>
+    <link rel="icon" type="image/GIF" href="http://h5games.gz.1251403497.clb.myqcloud.com/v1/projectM/res/favicon.ico"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="full-screen" content="yes"/>
     <meta name="screen-orientation" content="portrait"/>
@@ -20,9 +20,9 @@
     </style>
 </head>
 <body style="padding:0; margin: 0; background: #000;">
-<script src="http://www.fofalife.com/projectM/res/loading.js"></script>
+<script src="http://h5games.gz.1251403497.clb.myqcloud.com/v1/projectM/res/loading.js"></script>
 <canvas id="gameCanvas" width="800" height="450"></canvas>
 
-<script cocos src="http://www.fofalife.com/projectM/game.min.js"></script>
+<script cocos src="http://h5games.gz.1251403497.clb.myqcloud.com/v1/projectM/game.min.js"></script>
 </body>
 </html>
