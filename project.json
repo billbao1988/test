@@ -1,1 +1,7 @@
-{"showFPS": true, "frameRate": 60, "project_type": "javascript", "debugMode": 1, "renderMode": 0, "id": "gameCanvas"}
+{
+    "debugMode"     : 1,
+    "frameRate"     : 60,
+    "id"            : "gameCanvas",
+    "renderMode"    : 1,
+    "jsList"        : [ "GameLogic.js","GameOverLayer.js","GameScene.js","IceBall.js"]
+}
