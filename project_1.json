@@ -3,5 +3,5 @@
     "frameRate"     : 60,
     "id"            : "gameCanvas",
     "renderMode"    : 1,
-    "jsList"        : []
+    "jsList"        : [ "GameLogic.js","GameOverLayer.js","GameScene.js","IceBall.js"]
 }
