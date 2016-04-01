@@ -1,0 +1,18 @@
+{
+	"groups":[
+	{
+		"keys":"ClientString_json,avatar_jpg",
+		"name":"Main"
+	}],
+	"resources":[
+	{
+		"name":"ClientString_json",
+		"type":"text",
+		"url":"locale/zh/ClientString.json"
+	},
+	{
+		"name":"avatar_jpg",
+		"type":"image",
+		"url":"image/temp/avatar.jpg"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	"groups":[
+	{
+		"keys":"ClientString_json,ball_png",
+		"name":"Main"
+	}],
+	"resources":[
+	{
+		"name":"ClientString_json",
+		"type":"text",
+		"url":"locale/en/ClientString.json"
+	},
+	{
+		"name":"ball_png",
+		"type":"image",
+		"url":"ball.png"
+	}]
+}
