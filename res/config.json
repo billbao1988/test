@@ -1,4 +1,5 @@
 {
+  "version": "1.0.5",
   "physical": {
     "wall": {"density": 1.0,  "friction": 0.3, "restitution": 0.5},
     "ball": {"density": 1.0,  "friction": 0.3, "linear_damping": 0.6, "angular_damping": 0.5}
