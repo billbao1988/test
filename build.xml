@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
-<project name="Javascript compress project" basedir="D:\x_apollo_proj\dev\OLO" default="compile">
+<project name="Javascript compress project" basedir="E:\x_venus\dev\OLO" default="compile">
 
     <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask"
-             classpath="C:\Cocos\Cocos2d-x\cocos2d-x-3.10\tools\cocos2d-console\plugins\plugin_compile\build_web/bin/compiler-1.7.jar"/>
+             classpath="E:\cocos2d\Cocos\Cocos2d-x\cocos2d-x-3.10\tools\cocos2d-console\plugins\plugin_compile\build_web/bin/compiler-1.7.jar"/>
 
     <target name="compile">
         <jscomp compilationLevel="simple" 
                 warning="quiet"
                 debug="false" 
-                output="D:\x_apollo_proj\dev\OLO\publish\html5/game.min.js"
+                output="E:\x_venus\dev\OLO\publish\html5/game.min.js"
                 languagein="ECMASCRIPT5"
                 
                 >
-            <sources dir="D:\x_apollo_proj\dev\OLO\frameworks\cocos2d-html5">
+            <sources dir="E:\x_venus\dev\OLO\frameworks\cocos2d-html5">
                 <file name="CCBoot.js"/>
                 <file name="cocos2d/core/event-manager/CCEventHelper.js"/>
                 <file name="CCDebugger.js"/>
@@ -339,6 +339,7 @@
                 <file name="src/IceBall.js"/>
                 <file name="src/network/Queue.js"/>
                 <file name="src/PlayerAvatar.js"/>
+                <file name="src/SoundManager.js"/>
                 <file name="main.js"/>
 
             </sources>
