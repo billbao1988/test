@@ -1,18 +1,11 @@
 {
-<<<<<<< HEAD
+
   "version": "1.2.1",
-=======
-  "version": "1.1.1",
->>>>>>> origin/gh-pages
   "physical": {
     "wall": {"density": 1.0,  "friction": 0.3, "restitution": 0.8},
     "ball": {"density": [2.0, 1.35, 0.8],  "friction": 0.3, "restitution": 0.8, "linear_damping": 0.8, "angular_damping": 0.7}
   },
-<<<<<<< HEAD
   "gear": 1.5,
   "s_frequency": 0.2
+
 }
-=======
-  "gear": 1.5
-}
->>>>>>> origin/gh-pages
