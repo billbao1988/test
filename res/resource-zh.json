@@ -1,7 +1,7 @@
 {
 	"groups":[
 	{
-		"keys":"ClientString_json,avatar_jpg",
+		"keys":"ClientString_json,temp_avatar_png,avatar_frame_png,round_progress_png,round_bar_png,avatar_mask_png,EffNode_ripple_0_2_json,EffNode_ripple_0_3_json,EffNode_ripple_1_1_json,EffNode_ripple_1_2_json,EffNode_ripple_1_3_json,EffNode_ripple_0_1_json,my_finger_png,opp_finger_png,tips_die_png,tips_recycle_png,tips_timeout_png",
 		"name":"Main"
 	}],
 	"resources":[
@@ -11,8 +11,83 @@
 		"url":"locale/zh/ClientString.json"
 	},
 	{
-		"name":"avatar_jpg",
+		"name":"temp_avatar_png",
 		"type":"image",
-		"url":"image/temp/avatar.jpg"
+		"url":"image/avatar/temp_avatar.png"
+	},
+	{
+		"name":"avatar_frame_png",
+		"type":"image",
+		"url":"image/avatar/avatar_frame.png"
+	},
+	{
+		"name":"avatar_mask_png",
+		"type":"image",
+		"url":"image/avatar/avatar_mask.png"
+	},
+	{
+		"name":"round_bar_png",
+		"type":"image",
+		"url":"image/avatar/round_bar.png"
+	},
+	{
+		"name":"round_progress_png",
+		"type":"image",
+		"url":"image/avatar/round_progress.png"
+	},
+	{
+		"name":"EffNode_ripple_0_2_json",
+		"type":"json",
+		"url":"EffNode_ripple_0_2.json"
+	},
+	{
+		"name":"EffNode_ripple_0_3_json",
+		"type":"json",
+		"url":"EffNode_ripple_0_3.json"
+	},
+	{
+		"name":"EffNode_ripple_1_1_json",
+		"type":"json",
+		"url":"EffNode_ripple_1_1.json"
+	},
+	{
+		"name":"EffNode_ripple_1_2_json",
+		"type":"json",
+		"url":"EffNode_ripple_1_2.json"
+	},
+	{
+		"name":"EffNode_ripple_1_3_json",
+		"type":"json",
+		"url":"EffNode_ripple_1_3.json"
+	},
+	{
+		"name":"EffNode_ripple_0_1_json",
+		"type":"json",
+		"url":"EffNode_ripple_0_1.json"
+	},
+	{
+		"name":"my_finger_png",
+		"type":"image",
+		"url":"image/my_finger.png"
+	},
+	{
+		"name":"opp_finger_png",
+		"type":"image",
+		"url":"image/opp_finger.png"
+	},
+	{
+		"name":"tips_die_png",
+		"type":"image",
+		"url":"image/tips/tips_die.png"
+	},
+	{
+		"name":"tips_recycle_png",
+		"type":"image",
+		"url":"image/tips/tips_recycle.png"
+	},
+	{
+		"name":"tips_timeout_png",
+		"type":"image",
+		"url":"image/tips/tips_timeout.png"
 	}]
 }

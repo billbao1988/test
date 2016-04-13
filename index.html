@@ -21,7 +21,7 @@
     </style>
 </head>
 <body style="padding:0; margin: 0; background: #000;">
-<script src="lib/WeGameSDK.js"></script>
+<script src="http://cdn.games.imlianpu.com/venus/game/dist/platform_bundle.js"></script>
 <script src="res/loading.js"></script>
 <canvas id="gameCanvas" width="720" height="1280"></canvas>
 <script>
@@ -43,5 +43,14 @@
 </script>
 
 <script cocos src="game.min.js"></script>
+<script src="http://cdn.games.imlianpu.com/platform/dist/guide_standalone_bundle.js"></script>
+<script type="text/javascript">
+    window.Guide.init({
+        name: 'olo',
+        basePath: './res/guide/guide',
+        num: 3,
+        imgSuffix: 'png'
+    })
+</script>
 </body>
 </html>
