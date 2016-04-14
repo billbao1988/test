@@ -340,6 +340,7 @@
                 <file name="src/network/Queue.js"/>
                 <file name="src/PlayerAvatar.js"/>
                 <file name="src/RippleEffect.js"/>
+                <file name="src/SideBar.js"/>
                 <file name="src/SoundManager.js"/>
                 <file name="src/TestLayer.js"/>
                 <file name="main.js"/>
