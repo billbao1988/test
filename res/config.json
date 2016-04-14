@@ -1,6 +1,6 @@
 {
 
-  "version": "1.2.2",
+  "version": "1.2.3",
   "physical": {
     "wall": {"density": 1.0,  "friction": 0.3, "restitution": 0.8},
     "ball": {"density": [2.0, 1.35, 0.8],  "friction": 0.3, "restitution": 0.8, "linear_damping": 0.8, "angular_damping": 0.7}
